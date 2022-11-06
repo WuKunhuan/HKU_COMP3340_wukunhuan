@@ -43,7 +43,7 @@ conda install jupyterlab
 Create a virtual environment (replace ```venv``` to your desired name): 
 
 ```
-conda create -n ```venv``` python=3.7 -y
+conda create -n {venv} python=3.7 -y
 ```
 
 Install Pytorch, torchvision, cudatoolkit in the virtual environment: 
@@ -66,7 +66,7 @@ jupyter-lab --no-browser
 
 __Start another terminal,__ enter the following command to start the Jupyter Lab. 
 ```
-ssh -L ```port number```:localhost:```port number``` <your_gpu_acct_username>@10.```IP address```
+ssh -L {port number}:localhost:{port number} <your_gpu_acct_username>@10.{IP address}
 ```
 
 Copy the ```URL``` to a web browser to see the jupyter lab of our virtual environment ```venv```. 
