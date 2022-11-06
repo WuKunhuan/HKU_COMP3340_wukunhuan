@@ -9,7 +9,7 @@
 
 * __Usage__
 
-1. Download the ```setup_gpu_farm.py``` and ```setting.txt```
+1. Download ```setup_gpu_farm.py``` and ```setting.txt```
 2. Open ```setting.txt``` and provide information
 3. Open a Terminal (Mac/Linux) or Command Prompt (Windows) in the folder, enter 
 ```python
