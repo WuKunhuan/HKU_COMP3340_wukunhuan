@@ -1,9 +1,9 @@
 
 * __Objectives__
 1. Connect to HKU CS GPU Farm
-2. Install necessary libraries and toolkits
-3. Create a virtual environment
-4. Link to the local jupyter lab
+2. Create a virtual environment
+3. Install libraries and toolkits in the virtual environment
+4. Install and open the JupyterLab of the virtual environment
 
 
 
