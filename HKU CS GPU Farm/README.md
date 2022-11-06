@@ -25,6 +25,12 @@ Enter the following command (replace ```account``` to your t-digit HKU portal ID
 
 ssh -X ```account```@gpu2gate1.cs.hku.hk
 
+Enter the following to get GPU memory: 
+
+```
+gpu-interactive
+```
+
 Enter the following commands to install Anaconda: 
 
 ```
