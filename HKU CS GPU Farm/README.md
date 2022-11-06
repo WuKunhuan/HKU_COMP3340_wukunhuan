@@ -60,7 +60,7 @@ Install Pytorch, torchvision, cudatoolkit in the virtual environment:
 conda install pytorch==1.7.1 torchvision==0.8.2 cudatoolkit=10.1 -c pytorch
 ```
 
-Take note of the ```IP address``` of the GPU computed node by running the following command: 
+Take note of the ```IP address``` of the GPU computed node by running the following command (e.g., 10.64.32.55): 
 
 ```
 hostname -I
@@ -74,7 +74,7 @@ jupyter-lab --no-browser
 
 __Start another terminal,__ enter the following command to start the Jupyter Lab (replace ```account``` to your CS GPU Farm Account, replace ```port number```, ```IP address``` to the information above: 
 ```
-ssh -L {port number}:localhost:{port number} {account}@10.{IP address}
+ssh -L {port number}:localhost:{port number} {account}@{IP address}
 ```
 
 Copy the ```URL``` to a web browser to see the jupyter lab of our virtual environment ```venv```. 
