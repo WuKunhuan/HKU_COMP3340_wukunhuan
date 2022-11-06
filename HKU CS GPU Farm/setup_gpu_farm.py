@@ -44,6 +44,5 @@ os.system("clear")
 input("Install Pytorch, torchvision, cudatoolkit")
 os.system("clear")
 os.system("conda install pytorch==1.7.1 torchvision==0.8.2 cudatoolkit=10.1 -c pytorch")
-os.system("conda install torchvision")
 os.system("clear")
 
