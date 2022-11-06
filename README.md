@@ -4,12 +4,18 @@ Tools, practices, notebooks to be covered in HKU COMP3340 (Applied Deep Learning
 
 ## Environment Setup
 ```HKU CS GPU Farm``` Setup the virtual environment and install packages by connecting to HKU CS GPU Farm. 
+``Local Environment Setup``` Setup the virtual environment and install packages locally. 
+
 
 ## Tutorial Notebooks
 ```Tutorial 1: ```
+
 ```Tutorial 2: ```
+
 ```Tutorial 3: ```
+
 ```Tutorial 4: ```
+
 ```Tutorial 5: ```
 
 ## Group Project
