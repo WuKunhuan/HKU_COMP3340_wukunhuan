@@ -21,7 +21,7 @@ python setup_gpu_farm.py
 
 ### Option 2: Run terminal commands
 
-Enter the following command (replace ```account``` to your CS GPU Farm Account), and then followed by the password: 
+Open a new terminal as the ```root directory```. Enter the following command (replace ```account``` to your CS GPU Farm Account), and then followed by the password: 
 
 ```
 ssh -X {account} @gpu2gate1.cs.hku.hk
@@ -72,7 +72,7 @@ Start Jupyter Lab. Take note of the ```URL``` and the ```port number``` (e.g., 8
 jupyter-lab --no-browser
 ```
 
-__Start another terminal,__ enter the following command to start the Jupyter Lab (replace ```account``` to your CS GPU Farm Account, replace port number, IP address to the information above: 
+__Start another terminal,__ enter the following command to start the Jupyter Lab (replace ```account``` to your CS GPU Farm Account, replace ```port number```, ```IP address``` to the information above: 
 ```
 ssh -L {port number}:localhost:{port number} {account}@10.{IP address}
 ```
