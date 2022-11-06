@@ -1,8 +1,10 @@
+
 ```Objectives```
 * Connect to HKU CS GPU Farm
 * Install necessary libraries and toolkits
 * Create a virtual environment
 * Link to the local jupyter lab
+
 
 
 ```Usage```
@@ -13,8 +15,10 @@
 ```python
 python setup_gpu_farm.py
 ```
-then follow the instructions
+4. Follow the instructions
+
 
 
 ```Author```
+
 Wu Kunhuan
