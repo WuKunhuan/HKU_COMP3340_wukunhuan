@@ -21,9 +21,11 @@ python setup_gpu_farm.py
 
 ### Option 2: Run terminal commands
 
-Enter the following command (replace ```account``` to your t-digit HKU portal ID), and then followed by the password: 
+Enter the following command (replace ```account``` to your CS GPU Farm Account), and then followed by the password: 
 
-ssh -X ```account```@gpu2gate1.cs.hku.hk
+```
+ssh -X {account} @gpu2gate1.cs.hku.hk
+```
 
 Enter the following to get GPU memory: 
 
@@ -31,7 +33,7 @@ Enter the following to get GPU memory:
 gpu-interactive
 ```
 
-Enter the following commands to install Anaconda: 
+Enter the following commands to install Anaconda (replace ```account``` to your CS GPU Farm Account): 
 
 ```
 wget https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
@@ -58,21 +60,21 @@ Install Pytorch, torchvision, cudatoolkit in the virtual environment:
 conda install pytorch==1.7.1 torchvision==0.8.2 cudatoolkit=10.1 -c pytorch
 ```
 
-Find out the ```IP address``` of the GPU computed node: 
+Take note of the ```IP address``` of the GPU computed node by running the following command: 
 
 ```
 hostname -I
 ```
 
-Start Jupyter Lab. Note the ```URL``` and the ```port number``` in the end: 
+Start Jupyter Lab. Take note of the ```URL``` and the ```port number``` (e.g., 8888) in the end: 
 
 ```
 jupyter-lab --no-browser
 ```
 
-__Start another terminal,__ enter the following command to start the Jupyter Lab. 
+__Start another terminal,__ enter the following command to start the Jupyter Lab (replace ```account``` to your CS GPU Farm Account, replace port number, IP address to the information above: 
 ```
-ssh -L {port number}:localhost:{port number} <your_gpu_acct_username>@10.{IP address}
+ssh -L {port number}:localhost:{port number} {account}@10.{IP address}
 ```
 
 Copy the ```URL``` to a web browser to see the jupyter lab of our virtual environment ```venv```. 
