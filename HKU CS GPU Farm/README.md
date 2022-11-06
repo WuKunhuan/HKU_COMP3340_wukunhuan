@@ -5,7 +5,7 @@
 3. Create a virtual environment
 4. Link to the local jupyter lab
 
-https://github.com/WuKunhuan/HKU_COMP3340/blob/main/HKU%20CS%20GPU%20Farm/setup_gpu_farm.py
+
 
 * __Usage__
 
