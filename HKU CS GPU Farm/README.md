@@ -1,5 +1,5 @@
 
-```Objectives```
+```__Objectives__```
 * Connect to HKU CS GPU Farm
 * Install necessary libraries and toolkits
 * Create a virtual environment
@@ -7,7 +7,7 @@
 
 
 
-```Usage```
+```__Usage__```
 
 1. Download the ```setup_gpu_farm.py``` and ```setting.txt```
 2. Open ```setting.txt``` and provide information
@@ -19,6 +19,6 @@ python setup_gpu_farm.py
 
 
 
-```Author```
+```__Author__```
 
 Wu Kunhuan
