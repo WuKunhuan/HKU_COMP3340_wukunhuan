@@ -1,5 +1,5 @@
 
-* __Objectives__
+## __Objectives__
 1. Connect to HKU CS GPU Farm
 2. Create a virtual environment
 3. Install libraries and toolkits in the virtual environment
@@ -7,7 +7,7 @@
 
 
 
-* __Usage__
+## __Usage__
 
 ### Option 1: Run a python script
 
