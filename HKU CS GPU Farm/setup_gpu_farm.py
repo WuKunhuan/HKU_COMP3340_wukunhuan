@@ -1,20 +1,19 @@
 
 import os
-
 account = "uxxxxxxx"
 virtual_environment = "COMP3340"
-setting = open("foo.txt", "r").readlines()
+setting = open("setting.txt", "r").readlines()
 for line in setting:
     if (len(line) > 12):
         if (line[0:11] == "account = \""):
-            account = line[11:len(line)-1:1]
+            account = line[11:len(line)-2:1]
             continue
     if (len(line) > 24):
         if (line[0:23] == "virtual_environment = \""):
-            virtual_environment = line[23:len(line)-1:1]
+            virtual_environment = line[23:len(line)-2:1]
             continue
 
-
+os.system("clear")
 input("Login to your CS GPU Farm")
 os.system("clear")
 os.system(f"ssh -X {account}@gpu2gate1.cs.hku.hk")
