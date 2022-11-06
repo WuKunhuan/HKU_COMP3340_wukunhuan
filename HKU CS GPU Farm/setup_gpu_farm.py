@@ -15,8 +15,9 @@ for line in setting:
 
 os.system("clear")
 input("Login to your CS GPU Farm")
-os.system("clear")
 os.system(f"ssh -X {account}@gpu2gate1.cs.hku.hk")
+os.system("clear")
+os.system(f"gpu-interactive")
 os.system("clear")
 
 input("Install Anaconda")
