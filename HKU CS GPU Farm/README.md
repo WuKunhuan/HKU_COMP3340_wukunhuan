@@ -16,9 +16,3 @@
 python setup_gpu_farm.py
 ```
 4. Follow the instructions
-
-
-
-* __Author__
-
-Wu Kunhuan
