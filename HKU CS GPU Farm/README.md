@@ -21,7 +21,7 @@ python setup_gpu_farm.py
 
 ### Option 2: Run terminal commands
 
-Enter the following command (replace ```account`` to your t-digit HKU portal ID), and then followed by the password: 
+Enter the following command (replace ```account``` to your t-digit HKU portal ID), and then followed by the password: 
 
 ssh -X ```account```@gpu2gate1.cs.hku.hk
 
