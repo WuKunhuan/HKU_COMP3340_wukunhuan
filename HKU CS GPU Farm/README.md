@@ -9,7 +9,7 @@
 
 * __Usage__
 
-1. Download <a href="https://WuKunhuan.github.io/HKU_COMP3340/HKU%20CS%20GPU%20Farm/setup_gpu_farm.py" target="_blank">setup_gpu_farm</a> and ```setting.txt```
+1. Download <a href="https://github.com/WuKunhuan/HKU_COMP3340/blob/1a4d01065c2968ee71108d0e39a85e678e96f1ee/HKU%20CS%20GPU%20Farm/setup_gpu_farm.py" target="_blank">setup_gpu_farm.py</a> and ```setting.txt```
 2. Open ```setting.txt``` and provide information
 3. Open a Terminal (Mac/Linux) or Command Prompt (Windows) in the folder, enter 
 ```python
