@@ -6,22 +6,30 @@
 4. Install and open the JupyterLab of the virtual environment
 
 
-
 ## __Usage__
 
-### Option 1: Run a python script
+### Option 1: Run python scripts to use HKU CS GPU Farm remotely
 
+Requirement: Have applied HKU CS GPU Farm memory
 1. Download <a href="https://github.com/WuKunhuan/HKU_COMP3340/blob/main/HKU%20CS%20GPU%20Farm/setup_gpu_farm.py" target="_blank">setup_gpu_farm.py</a> and <a href="https://github.com/WuKunhuan/HKU_COMP3340/blob/main/HKU%20CS%20GPU%20Farm/setting.txt" target="_blank">setting.txt</a>
 2. Open ```setting.txt``` and provide information
 3. Open a Terminal (Mac/Linux) or Command Prompt (Windows) in the folder, enter 
-```python
+```
 python setup_gpu_farm.py
 ```
-4. Follow the instructions
+then follow the instructions. 
+4. Open another Terminal (Mac/Linux) or Command Prompt (Windows) in the folder, enter 
+```
+python setup_gpu_farm_2.py
+```
+then follow the instructions. 
 
-### Option 2: Run terminal commands
 
-Open a new terminal as the ```root directory```. Enter the following command (replace ```account``` to your CS GPU Farm Account), and then followed by the password: 
+### Option 2: Run terminal commands to use HKU CS GPU Farm remotely
+
+Set up a new folder ```root directory``` and open a Terminal (Mac/Linux) or Command Prompt (Windows) on it.
+
+Enter the following command (replace ```account``` to your CS GPU Farm Account), and then followed by the password: 
 
 ```
 ssh -X {account} @gpu2gate1.cs.hku.hk
@@ -78,3 +86,15 @@ ssh -L {port number}:localhost:{port number} {account}@{IP address}
 ```
 
 Copy the ```URL``` to a web browser to see the jupyter lab of our virtual environment ```venv```. 
+
+
+### Option 3: Run python scripts to setup the virtual environment locally. 
+
+
+### Option 4: Run terminal commands to setup the virtual environment locally. 
+
+
+
+
+
+
