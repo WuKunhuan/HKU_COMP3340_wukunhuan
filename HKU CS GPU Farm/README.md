@@ -1,4 +1,6 @@
 
+# HKU CS GPU Farm Setup
+
 ## __Objectives__
 1. Connect to HKU CS GPU Farm
 2. Create a virtual environment
@@ -11,14 +13,16 @@
 ### Option 1: Run python scripts to use HKU CS GPU Farm remotely
 
 Requirement: Have applied HKU CS GPU Farm memory
-1. Download <a href="https://github.com/WuKunhuan/HKU_COMP3340/blob/main/HKU%20CS%20GPU%20Farm/setup_gpu_farm.py" target="_blank">setup_gpu_farm.py</a> and <a href="https://github.com/WuKunhuan/HKU_COMP3340/blob/main/HKU%20CS%20GPU%20Farm/setting.txt" target="_blank">setting.txt</a>
-2. Open ```setting.txt``` and provide information
-3. Open a Terminal (Mac/Linux) or Command Prompt (Windows) in the folder, enter 
+
+1. Download <a href="https://github.com/WuKunhuan/HKU_COMP3340/blob/main/HKU%20CS%20GPU%20Farm/setup_gpu_farm.py" target="_blank">setup_gpu_farm.py</a> <a href="https://github.com/WuKunhuan/HKU_COMP3340/blob/main/HKU%20CS%20GPU%20Farm/setup_gpu_farm2.py" target="_blank">setup_gpu_farm2.py</a>
+
+2. Open a Terminal (Mac/Linux) or Command Prompt (Windows) in the folder, enter 
 ```
 python setup_gpu_farm.py
 ```
 then follow the instructions. 
-4. Open another Terminal (Mac/Linux) or Command Prompt (Windows) in the folder, enter 
+
+3. Open another Terminal (Mac/Linux) or Command Prompt (Windows) in the folder, enter 
 ```
 python setup_gpu_farm_2.py
 ```
@@ -41,7 +45,7 @@ Enter the following to get GPU memory:
 gpu-interactive
 ```
 
-Enter the following commands to install Anaconda (replace ```account``` to your CS GPU Farm Account): 
+Enter the following commands to install Anaconda (replace ```account``` to your CS GPU Farm Account).
 
 ```
 wget https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
@@ -52,14 +56,14 @@ export PATH=/userhome/cs2/{account}/anaconda3/bin:$PATH
 Enter the following commands to install pip and jupyter lab: 
 
 ```
-conda install pip
-conda install jupyterlab
+conda install pip jupyterlab
 ```
 
-Create a virtual environment (replace ```venv``` to your desired name): 
+Create and activate a virtual environment (replace ```venv``` to your desired name). Note that if the conda version is older than 4.4, then replace the second line "conda activate {venv}" into "activate {venv}". 
 
 ```
 conda create -n {venv} python=3.7 -y
+conda activate {venv}
 ```
 
 Install Pytorch, torchvision, cudatoolkit in the virtual environment: 
@@ -68,13 +72,13 @@ Install Pytorch, torchvision, cudatoolkit in the virtual environment:
 conda install pytorch==1.7.1 torchvision==0.8.2 cudatoolkit=10.1 -c pytorch
 ```
 
-Take note of the ```IP address``` of the GPU computed node by running the following command (e.g., 10.64.32.55): 
+Take note of the ```IP address``` of the GPU computed node by running the following command (e.g., 10.64.32.55). The ```IP address``` will be used later. 
 
 ```
 hostname -I
 ```
 
-Start Jupyter Lab. Take note of the ```URL``` and the ```port number``` (e.g., 8888) in the end: 
+Start Jupyter Lab. Take note of the ```URL``` and the ```port number``` (e.g., 8888) in the end which will be used later. 
 
 ```
 jupyter-lab --no-browser

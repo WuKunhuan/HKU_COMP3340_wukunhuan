@@ -1,8 +1,0 @@
-
-account = "uxxxxxxx"
-  Change this  ↑
-
-
-
-virtual_environment = "COMP3340"
-              Change this  ↑
