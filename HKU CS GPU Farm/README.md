@@ -89,12 +89,15 @@ Start Jupyter Lab. Take note of the ```URL``` and the ```port number``` (e.g., 8
 jupyter-lab --no-browser
 ```
 
-__Start another terminal,__ enter the following command to start the Jupyter Lab (replace ```account``` to your CS GPU Farm Account, replace ```port number```, ```IP address``` to the information above: 
+__Start another terminal,__ enter the following command to start the Jupyter Lab (replace ```account``` to your CS GPU Farm Account, replace ```port number```, ```IP address``` to the information above. 
+
+Example: ssh -L 8888:localhost:8888 u3123456@10.64.32.55
+
 ```
 ssh -L {port number}:localhost:{port number} {account}@{IP address}
 ```
 
-Copy the ```URL``` to a web browser to see the jupyter lab of our virtual environment ```venv```. 
+Enter your password again. Copy the ```URL``` to a web browser to see the jupyter lab of our virtual environment ```venv```. 
 
 
 ### Option 3: Run python scripts to setup the virtual environment locally (will be available soon)
