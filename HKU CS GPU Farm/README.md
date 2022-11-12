@@ -36,7 +36,7 @@ Set up a new folder ```root directory``` and open a Terminal (Mac/Linux) or Comm
 Enter the following command (replace ```account``` to your CS GPU Farm Account), and then followed by the password: 
 
 ```
-ssh -X {account} @gpu2gate1.cs.hku.hk
+ssh -X {account}@gpu2gate1.cs.hku.hk
 ```
 
 Enter the following to get GPU memory: 
