@@ -39,17 +39,22 @@ Enter the following command (replace ```account``` to your CS GPU Farm Account),
 ssh -X {account}@gpu2gate1.cs.hku.hk
 ```
 
-Enter the following to get GPU memory: 
+Enter the following to get GPU memory. You will see (base) in the beginning of the command line afterwards if the memory was allocated successfully. 
 
 ```
 gpu-interactive
 ```
 
-Enter the following commands to install Anaconda (replace ```account``` to your CS GPU Farm Account).
+Enter the following commands to install Anaconda (replace ```account``` to your CS GPU Farm Account). Press enter to scroll down until the GPU Farm node appears again ((base) in the beginning of the command line). 
 
 ```
 wget https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
 bash Anaconda3-2020.11-Linux-x86_64.sh
+```
+
+Export the path of Anaconda to the system. 
+
+```
 export PATH=/userhome/cs2/{account}/anaconda3/bin:$PATH
 ```
 
