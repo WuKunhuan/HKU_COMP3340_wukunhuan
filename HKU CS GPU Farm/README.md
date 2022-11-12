@@ -10,11 +10,11 @@
 
 ## __Usage__
 
-### Option 1: Run python scripts to use HKU CS GPU Farm remotely
+### Option 1: Run python scripts to use HKU CS GPU Farm remotely (will be available soon)
 
 Requirement: Have applied HKU CS GPU Farm memory
 
-1. Download <a href="https://github.com/WuKunhuan/HKU_COMP3340/blob/main/HKU%20CS%20GPU%20Farm/setup_gpu_farm.py" target="_blank">setup_gpu_farm.py</a> <a href="https://github.com/WuKunhuan/HKU_COMP3340/blob/main/HKU%20CS%20GPU%20Farm/setup_gpu_farm2.py" target="_blank">setup_gpu_farm2.py</a>
+1. Download <a href=# target="_blank">setup_gpu_farm.py</a> <a href=# target="_blank">setup_gpu_farm2.py</a>
 
 2. Open a Terminal (Mac/Linux) or Command Prompt (Windows) in the folder, enter 
 ```
@@ -92,10 +92,10 @@ ssh -L {port number}:localhost:{port number} {account}@{IP address}
 Copy the ```URL``` to a web browser to see the jupyter lab of our virtual environment ```venv```. 
 
 
-### Option 3: Run python scripts to setup the virtual environment locally. 
+### Option 3: Run python scripts to setup the virtual environment locally (will be available soon)
 
 
-### Option 4: Run terminal commands to setup the virtual environment locally. 
+### Option 4: Run terminal commands to setup the virtual environment locally (will be available soon)
 
 
 
